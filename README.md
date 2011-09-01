@@ -3,6 +3,22 @@
 Currently working on getting a basic signature verification 
 (for SAML purposes) working, in the least hacky way possible.
 
+
+## Testing
+
+Tests are dependent on `rspec` and `rake-compiler`. Run them with:
+
+	rake spec
+
+The tests build the C extension, to clean the output from the build process:
+
+	rake clean
+
+Test certificates and signed documents are taken from the
+[xmlseclibs](http://code.google.com/p/xmlseclibs/source/browse/trunk/tests/)
+test suite.
+
+
 ## Version History
 
 Version 0.0.6
