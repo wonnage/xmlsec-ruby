@@ -1,5 +1,9 @@
+# xmlsec-ruby
+
 Currently working on getting a basic signature verification 
 (for SAML purposes) working, in the least hacky way possible.
+
+## Version History
 
 Version 0.0.6
 Less hacky way of grabbing ID attributes.
